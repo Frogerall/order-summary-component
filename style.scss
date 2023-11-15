@@ -16,10 +16,14 @@ img {
  border-radius: 1rem 1rem 0 0;
 }
 .container {
- margin: 1.5rem;
+ margin: 2rem;
  border-radius: 1rem;
  background-color: white;
  box-shadow: 5px 15px 10px rgba(85, 121, 133, 0.267);
+ @media (min-width: 600px) {
+  max-width: 25rem;
+  margin: 1rem auto;
+ }
 }
 h1 {
  font-size: 1.5rem;
@@ -28,8 +32,8 @@ h1 {
 }
 p {
  text-align: center;
- font-size: 18px;
- width: 30ch;
+ font-size: 16px;
+ max-width: 30ch;
  margin: 0 auto;
  color: rgb(111, 140, 150);
 }
@@ -41,6 +45,7 @@ p {
  background-color: rgba(85, 85, 243, 0.062);
  margin: 1rem;
  border-radius: 0.5rem;
+ max-width: 100%;
  a {
   color: blue;
  }
@@ -50,8 +55,8 @@ span {
  flex-direction: column;
  line-height: 1;
  color: rgba(58, 57, 57, 0.781);
- margin-left: 1rem;
- margin-right: 5rem;
+ padding-left: 1rem;
+ padding-right: 1rem;
  strong {
   color: black;
  }
