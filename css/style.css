@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.7;
+  font-size: 1em;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-color: rgba(192, 217, 252, 0.452);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  border-radius: 1rem 1rem 0 0;
+}
+
+.container {
+  margin: 1.5rem;
+  border-radius: 1rem;
+  background-color: white;
+  box-shadow: 5px 15px 10px rgba(85, 121, 133, 0.267);
+}
+
+h1 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.7rem;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  width: 30ch;
+  margin: 0 auto;
+  color: rgb(111, 140, 150);
+}
+
+.plan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  background-color: rgba(85, 85, 243, 0.062);
+  margin: 1rem;
+  border-radius: 0.5rem;
+}
+.plan a {
+  color: blue;
+}
+
+span {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  color: rgba(58, 57, 57, 0.781);
+  margin-left: 1rem;
+  margin-right: 5rem;
+}
+span strong {
+  color: black;
+}
+
+.btn-1 {
+  padding: 1rem;
+  background-color: rgb(55, 55, 177);
+  color: white;
+  text-decoration: none;
+  border-radius: 0.8rem;
+  display: block;
+  margin: 1.5rem 1.5rem 1rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 15px 10px rgba(142, 142, 243, 0.432);
+}
+
+.btn-2 {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: rgba(50, 50, 88, 0.555);
+  font-weight: 800;
+  padding-bottom: 2rem;
+}
